@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drumbeat — Sound Reactive Sketch (p5.js)</title>
+   
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='6' fill='%235ce1e6'/></svg>">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.0/addons/p5.sound.min.js"></script>
+
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Drumbeat <span class="accent">/</span> sound&nbsp;reactive sketch</h1>
+      <p class="hint">Click the canvas to start / stop the loop &nbsp;·&nbsp; press <kbd>N</kbd> to cycle the visual mode</p>
+
+      <div class="stage">
+        <div id="myContainer"></div>
+        <div class="hud" id="hud">loading audio…</div>
+      </div>
+
+      <footer>
+        <p>Built with <a href="https://p5js.org/" target="_blank" rel="noopener">p5.js</a> 1.11.0 + p5.sound ·
+           beat sample from the <a href="https://birchallchris.github.io/drumbeat/" target="_blank" rel="noopener">COMM2754 workshop</a>.</p>
+      </footer>
+    </main>
+  </body>
+</html>
