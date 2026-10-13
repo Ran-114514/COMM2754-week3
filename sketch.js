@@ -309,9 +309,6 @@ function drawCore(rms, kicked) {
   pop();
 }
 
-// ---------------------------------------------------------------- hud
-// The readout lives in the HTML layer (see #hud in index.html) so it stays
-// crisp and selectable. Updated every few frames rather than every frame.
 function drawHud(rms) {
   if (frameCount % 6 !== 0) return;
 
